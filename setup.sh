@@ -46,3 +46,9 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+# Download google_appengine SDK for python
+# http://googleappengine.googlecode.com/files/google_appengine_1.8.6.zip
+sudo apt-get install -y unzip
+wget http://googleappengine.googlecode.com/files/google_appengine_1.8.6.zip
+unzip -q google_appengine_1.8.6.zip
+rm -rf google_appengine_1.8.6.zip
