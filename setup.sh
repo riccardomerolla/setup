@@ -36,4 +36,16 @@ ln -sf dotfiles/.emacs.d .
 wget -qO- https://get.docker.com/ | sudo sh
 sudo usermod -aG docker ubuntu
 
+# Install etcd
+# curl -L  https://github.com/coreos/etcd/releases/download/v2.0.9/etcd-v2.0.9-linux-amd64.tar.gz -o etcd.tar.gz
+# sudo tar -C /usr/local -xzf etcd.tar.gz
+# sudo mv /usr/local/etcd-v2.0.9-linux-amd64 /usr/local/etcd
+# echo 'export PATH=$PATH:/usr/local/etcd' >> dotfiles/.zshrc
 
+# Install go
+# curl -L https://storage.googleapis.com/golang/go1.4.2.linux-amd64.tar.gz -o go.tar.gz
+# sudo tar -C /usr/local -xzf go.tar.gz
+# echo 'export PATH=$PATH:/usr/local/go/bin' >> dotfiles/.zshrc
+
+# Install kubernetes
+# git clone https://github.com/GoogleCloudPlatform/kubernetes
