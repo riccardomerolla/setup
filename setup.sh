@@ -12,6 +12,7 @@ sudo apt-get -qq update
 sudo apt-get install -y emacs24-nox emacs24-el emacs24-common-non-dfsg
 
 # Install zsh
+sudo apt-get install -y zsh
 curl -L https://raw.github.com/riccardomerolla/oh-my-zsh/master/tools/install.sh | sudo sh
 
 # git pull and install dotfiles as well
